@@ -600,3 +600,262 @@ console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "res
 1631870436080	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1631870514550	Marionette	INFO	Stopped listening on port 64263
 JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1631965773693	geckodriver	INFO	Listening on 127.0.0.1:55040
+1631965778497	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofile6H2m8z"
+1631965786096	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofile6H2m8z\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1631965809596	Marionette	INFO	Listening on port 55051
+1631965810287	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631965830907	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 1943: TypeError: currentPanel is undefined
+console.error: "Tried to send a 'target-destroyed-form' event on an already destroyed actor 'watcher'"
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.child4/domwalker25, type cancelPick failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:289:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ncancelPick@resource://devtools/client/fronts/walker.js:506:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:55:25\n_onInspectorFrontDestroyed@resource://devtools/client/inspector/node-picker.js:113:18\nstop@resource://devtools/client/inspector/node-picker.js:176:18\n_destroyToolbox@resource://devtools/client/framework/toolbox.js:3761:24\ndestroy@resource://devtools/client/framework/toolbox.js:3699:10\n_handleTabEvent@resource://devtools/client/fronts/descriptors/tab.js:293:25\n_beginRemoveTab@chrome://browser/content/tabbrowser.js:3816:12\nremoveTab@chrome://browser/content/tabbrowser.js:3588:15\n_setupEventListeners/<@chrome://browser/content/tabbrowser.js:5642:16\nreceiveMessage@resource://gre/actors/BrowserElementParent.jsm:28:21\n", "resource://devtools/shared/protocol/Front.js", 103))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.child4/customhighlighter297, type show failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:289:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nshow@resource://devtools/client/fronts/highlighters.js:27:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:55:25\nshowHighlighterTypeForNode@resource://devtools/client/inspector/shared/highlighters-overlay.js:581:23\n", "resource://devtools/shared/protocol/Front.js", 103))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.child4/customhighlighter297, type hide failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:289:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nhide@resource://devtools/client/fronts/highlighters.js:32:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:55:25\nhideHighlighterType@resource://devtools/client/inspector/shared/highlighters-overlay.js:640:23\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:55:25\n_beforeShowHighlighterTypeForNode@resource://devtools/client/inspector/shared/highlighters-overlay.js:356:22\nshowHighlighterTypeForNode@resource://devtools/client/inspector/shared/highlighters-overlay.js:543:26\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:55:25\nonPickerHovered@resource://devtools/client/inspector/inspector.js:1909:23\n_emit@resource://devtools/shared/event-emitter.js:244:34\nemit@resource://devtools/shared/event-emitter.js:190:18\nemit@resource://devtools/shared/event-emitter.js:342:18\n_onHovered@resource://devtools/client/inspector/node-picker.js:199:10\n_emit@resource://devtools/shared/event-emitter.js:244:34\nemit@resource://devtools/shared/event-emitter.js:190:18\nemit@resource://devtools/shared/event-emitter.js:342:18\nonPacket@resource://devtools/shared/protocol/Front.js:333:13\nonPacket@resource://devtools/client/devtools-client.js:482:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 103))
+console.error: "Exception while getting unique selector" (new Error("Connection closed, pending request to server0.conn0.child4/domnode30, type getUniqueSelector failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:289:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\n_create/<@resource://devtools/client/inspector/rules/views/rule-editor.js:174:48\n_create@resource://devtools/client/inspector/rules/views/rule-editor.js:190:20\nRuleEditor@resource://devtools/client/inspector/rules/views/rule-editor.js:81:8\n_createEditors@resource://devtools/client/inspector/rules/rules.js:1323:23\n_populate/<@resource://devtools/client/inspector/rules/rules.js:1103:37\n", "resource://devtools/shared/protocol/Front.js", 103))
+console.error: "Exception while getting unique selector" (new Error("Connection closed, pending request to server0.conn0.child4/domnode130, type getUniqueSelector failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:289:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\n_create/<@resource://devtools/client/inspector/rules/views/rule-editor.js:174:48\n_create@resource://devtools/client/inspector/rules/views/rule-editor.js:190:20\nRuleEditor@resource://devtools/client/inspector/rules/views/rule-editor.js:81:8\n_createEditors@resource://devtools/client/inspector/rules/rules.js:1323:23\n_populate/<@resource://devtools/client/inspector/rules/rules.js:1103:37\n", "resource://devtools/shared/protocol/Front.js", 103))
+console.warn: "Inspector destroyed while executing onReflow callback"
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 103: Error: Connection closed, pending request to server0.conn0.child4/frameTarget1, type logInPage failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:289:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+logWarningInPage@resource://devtools/client/fronts/targets/target-mixin.js:775:21
+_createSourceMapService/get/</<@resource://devtools/client/framework/toolbox.js:1287:29
+
+1631966131273	Marionette	INFO	Stopped listening on port 55051
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+\\Local\\Temp\\rust_mozprofilee2Jo58"
+1631966130312	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofilee2Jo58\\search.json.mozlz4", (void 0)))
+1631966148181	Marionette	INFO	Listening on port 55169
+1631966148522	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631966164914	Marionette	INFO	Stopped listening on port 55169
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x690022,name=PNecko::Msg_RequestContextAfterDOMContentLoaded) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390142,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+1631966208127	geckodriver	INFO	Listening on 127.0.0.1:55272
+1631966211214	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofile0ajlBz"
+1631966213489	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofile0ajlBz\\search.json.mozlz4", (void 0)))
+1631966225671	Marionette	INFO	Listening on port 55280
+1631966225975	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/whats-new-panel Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1631966242400	Marionette	INFO	Stopped listening on port 55280
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3B0001,name=PCookieService::Msg_SetCookies) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590007,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x690022,name=PNecko::Msg_RequestContextAfterDOMContentLoaded) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390142,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631966274584	geckodriver	INFO	Listening on 127.0.0.1:55370
+1631966277687	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofilexTZdz0"
+1631966279959	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofilexTZdz0\\search.json.mozlz4", (void 0)))
+1631966291047	Marionette	INFO	Listening on port 55378
+1631966291600	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631966320860	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoplayParent.jsm, line 13: TypeError: browser is null
+JavaScript error: https://cdn.sstatic.net/Js/stub.en.js?v=55ecac0b1d01, line 1: ReferenceError: $ is not defined
+JavaScript error: https://stackoverflow.com/questions/61300228/unable-to-play-youtube-video-using-selenium-with-python, line 43: TypeError: StackExchange.ready is not a function
+JavaScript error: https://cdn.sstatic.net/Js/stub.en.js?v=55ecac0b1d01, line 1: ReferenceError: $ is not defined
+JavaScript error: https://stackoverflow.com/questions/61300228/unable-to-play-youtube-video-using-selenium-with-python, line 317: TypeError: StackExchange.ready is not a function
+JavaScript error: https://stackoverflow.com/questions/61300228/unable-to-play-youtube-video-using-selenium-with-python, line 1141: TypeError: StackExchange.ifUsing is not a function
+JavaScript error: https://stackoverflow.com/questions/61300228/unable-to-play-youtube-video-using-selenium-with-python, line 1152: TypeError: StackExchange.ready is not a function
+JavaScript error: https://stackoverflow.com/questions/61300228/unable-to-play-youtube-video-using-selenium-with-python, line 1249: TypeError: StackExchange.ready is not a function
+JavaScript error: https://stackoverflow.com/questions/61300228/unable-to-play-youtube-video-using-selenium-with-python, line 1294: TypeError: StackExchange.ready is not a function
+JavaScript error: https://stackoverflow.com/questions/61300228/unable-to-play-youtube-video-using-selenium-with-python, line 1672: TypeError: StackExchange.ready is not a function
+JavaScript error: https://stackoverflow.com/questions/61300228/unable-to-play-youtube-video-using-selenium-with-python, line 1704: TypeError: StackExchange.ready is not a function
+JavaScript error: https://stackoverflow.com/questions/61300228/unable-to-play-youtube-video-using-selenium-with-python, line 1949: TypeError: StackExchange.ready is not a function
+JavaScript error: https://stackoverflow.com/questions/61300228/unable-to-play-youtube-video-using-selenium-with-python, line 1962: TypeError: StackExchange.ready is not a function
+JavaScript warning: https://www.sololearn.com/Scripts/fngprnt.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.sololearn.com/Scripts/fngprnt.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 2661 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdn.sstatic.net/Js/stub.en.js?v=55ecac0b1d01, line 1: ReferenceError: $ is not defined
+JavaScript error: https://stackoverflow.com/questions/61300228/unable-to-play-youtube-video-using-selenium-with-python, line 43: TypeError: StackExchange.ready is not a function
+JavaScript error: https://cdn.sstatic.net/Js/stub.en.js?v=55ecac0b1d01, line 1: ReferenceError: $ is not defined
+JavaScript error: https://stackoverflow.com/questions/61300228/unable-to-play-youtube-video-using-selenium-with-python, line 317: TypeError: StackExchange.ready is not a function
+JavaScript error: https://stackoverflow.com/questions/61300228/unable-to-play-youtube-video-using-selenium-with-python, line 1133: TypeError: StackExchange.ifUsing is not a function
+JavaScript error: https://stackoverflow.com/questions/61300228/unable-to-play-youtube-video-using-selenium-with-python, line 1144: TypeError: StackExchange.ready is not a function
+JavaScript error: https://stackoverflow.com/questions/61300228/unable-to-play-youtube-video-using-selenium-with-python, line 1241: TypeError: StackExchange.ready is not a function
+JavaScript error: https://stackoverflow.com/questions/61300228/unable-to-play-youtube-video-using-selenium-with-python, line 1286: TypeError: StackExchange.ready is not a function
+JavaScript error: https://stackoverflow.com/questions/61300228/unable-to-play-youtube-video-using-selenium-with-python, line 1660: TypeError: StackExchange.ready is not a function
+JavaScript error: https://stackoverflow.com/questions/61300228/unable-to-play-youtube-video-using-selenium-with-python, line 1679: TypeError: StackExchange.ready is not a function
+JavaScript error: https://stackoverflow.com/questions/61300228/unable-to-play-youtube-video-using-selenium-with-python, line 1924: TypeError: StackExchange.ready is not a function
+JavaScript error: https://stackoverflow.com/questions/61300228/unable-to-play-youtube-video-using-selenium-with-python, line 1937: TypeError: StackExchange.ready is not a function
+1631967452611	Marionette	INFO	Stopped listening on port 55378
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+7	Marionette	INFO	Listening on port 55863
+1631966733645	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631966756562	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 1943: TypeError: currentPanel is undefined
+1631966856179	Marionette	INFO	Stopped listening on port 55863
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1631966860923	geckodriver	INFO	Listening on 127.0.0.1:55961
+1631966864009	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofileysN86h"
+1631966867147	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofileysN86h\\search.json.mozlz4", (void 0)))
+1631966880703	Marionette	INFO	Listening on port 55969
+1631966881242	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631966899292	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 1943: TypeError: currentPanel is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 3921 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Inspector destroyed while executing onReflow callback"
+1631967158066	Marionette	INFO	Stopped listening on port 55969
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUser1631967159942	Marionette	INFO	MarJavaScript error:console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofilexIz6YX\\search.json.mozlz4", (void 0)))
+1631967174086	Marionette	INFO	Listening on port 56127
+1631967174985	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631967192739	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1631967275348	Marionette	INFO	Stopped listening on port 56127
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002F,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1631967451638	geckodriver	INFO	Listening on 127.0.0.1:56268
+1631967454729	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofileMkQ8ik"
+1631967457018	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofileMkQ8ik\\search.json.mozlz4", (void 0)))
+1631967470008	Marionette	INFO	Listening on port 56277
+1631967470591	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631967584068	Marionette	INFO	Stopped listening on port 56277
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Erro1631967585394	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofilednAyJK\\search.json.mozlz4", (void 0)))
+1631967599089	Marionette	INFO	Listening on port 56403
+1631967599955	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631967617113	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1631967617764	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+[Child 10928, MediaDecoderStateMachine #1] WARNING: 2c2039e79e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 10928, MediaDecoderStateMachine #1] WARNING: 2c277faf040 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1631967635021	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1631967697245	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+[Child 10928, MediaDecoderStateMachine #1] WARNING: 2c20590aba0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1631967740561	Marionette	INFO	Stopped listening on port 56403
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: chrome://remote/content/marionette/driver.js, line 2134: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+[Parent 10072, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
