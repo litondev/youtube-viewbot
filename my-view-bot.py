@@ -11,7 +11,7 @@ url = [
 		"https://www.youtube.com/watch?v=jJyD6Md6Dfs",
 	],
 	[
-		"https://www.youtube.com/watch?v=tVDtj0hD7Ms"
+		"https://www.youtube.com/watch?v=tVDtj0hD7Ms",
 		"https://www.youtube.com/watch?v=LurlNwa-uJo",
 		"https://www.youtube.com/watch?v=WuKolk-p3nQ",
 	],
@@ -24,27 +24,28 @@ url = [
 
 driver = webdriver.Firefox(executable_path="D:\\driver\\geckodriver.exe");
 
-for index, item in enumerate(url):			
-	print(index)
-	print("")
-	for indexChild,itemChild in enumerate(item):
-		driver.execute_script("window.open('" + itemChild + "')")
-		print("URL : " + itemChild)					
-		driver.switch_to.window(driver.window_handles[indexChild+1]);
-		WebDriverWait(driver, 60).until(EC.element_to_be_clickable((By.XPATH, "//button[@aria-label='Play (k)']"))).click()
-		time.sleep(5)
-	
-	time.sleep(80)
-	driver.switch_to.window(driver.window_handles[1])
-	driver.execute_script("window.close()")
-	time.sleep(3)
-	driver.switch_to.window(driver.window_handles[1])
-	driver.execute_script("window.close()")
-	time.sleep(3)
-	driver.switch_to.window(driver.window_handles[1])
-	driver.execute_script("window.close()")
-	time.sleep(3)
-	driver.switch_to.window(driver.window_handles[0])
+while True:
+	for index, item in enumerate(url):			
+		print(index)
+		print("")
+		for indexChild,itemChild in enumerate(item):
+			driver.execute_script("window.open('" + itemChild + "')")
+			print("URL : " + itemChild)					
+			driver.switch_to.window(driver.window_handles[indexChild+1]);
+			WebDriverWait(driver, 60).until(EC.element_to_be_clickable((By.XPATH, "//button[@aria-label='Play (k)']"))).click()
+			time.sleep(5)
+		
+		time.sleep(185)
+		driver.switch_to.window(driver.window_handles[1])
+		driver.execute_script("window.close()")
+		time.sleep(3)
+		driver.switch_to.window(driver.window_handles[1])
+		driver.execute_script("window.close()")
+		time.sleep(3)
+		driver.switch_to.window(driver.window_handles[1])
+		driver.execute_script("window.close()")
+		time.sleep(3)
+		driver.switch_to.window(driver.window_handles[0])
 
 time.sleep(5);
 driver.quit();
